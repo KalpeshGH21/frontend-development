@@ -1,0 +1,49 @@
+img
+{ 
+    border: 4px solid #ee0505;
+    border-radius: 20px;
+display: block;
+width:200px;
+height: 200px;
+margin-left: auto;
+margin-right: auto;
+}
+.profile:hover
+{
+    transform: rotateY(180deg); 
+    backface-visibility: hidden;
+}
+
+.mailid
+{
+    display: block;
+}
+.hitme
+{
+    margin-top: 5px;
+}
+.search{
+    line-height: 20px;
+background-color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border-color: black;
+    font-weight: lighter;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-wrapper{
+    justify-content: center;
+    display: flex;
+}
+.btn{
+    background-color: salmon;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border-color: black;
+    font-weight: bolder;
+    margin-top: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
